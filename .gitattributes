@@ -1,3 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 Build/Build.asm.code.unityweb filter=lfs diff=lfs merge=lfs -text
+*.asm.code.unityweb filter=lfs diff=lfs merge=lfs -text
+Build/Planetona.asm.code.unityweb filter=lfs diff=lfs merge=lfs -text
+Build/Planetona.asm.framework.unityweb filter=lfs diff=lfs merge=lfs -text
+Build/Planetona.asm.memory.unityweb filter=lfs diff=lfs merge=lfs -text
+Build/Planetona.data.unityweb filter=lfs diff=lfs merge=lfs -text
+Build/Planetona.json filter=lfs diff=lfs merge=lfs -text
+Build/UnityLoader.js filter=lfs diff=lfs merge=lfs -text
